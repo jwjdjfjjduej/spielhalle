@@ -1,0 +1,20 @@
+{
+  "appId": "de.familienkopf.spielhalle",
+  "appName": "Spielhalle",
+  "webDir": "www",
+  "server": {
+    "url": "https://familien-kopf.de",
+    "cleartext": false
+  },
+  "ios": {
+    "contentInset": "always",
+    "limitsNavigationsToAppBoundDomains": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#6366f1",
+      "showSpinner": false
+    }
+  }
+}
